@@ -12,4 +12,6 @@ After clicking on Next in Achievement Page , you will see Badge Page(main page) 
 
 ![This is the Badge Page](badgepage.png)
 
+Now after clicking on Share button on badge page, ann AR Lens will pop up.
+
 
