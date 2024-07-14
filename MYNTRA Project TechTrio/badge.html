@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BADGE PAGE</title>
+    <link rel="stylesheet" href="badge.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="myntra.css"/>
+</head>
+<body>
+    
+    <!--header-->
+  <header>
+    <div class="navbar">
+      <div class="nav-logo">
+        <div class="logo"></div>
+      </div>
+      <div class="nav-add">
+        <div class="men">
+         <p class="add1">Men</p>
+         </div>
+         <div class="women">
+         <p class="add2">Women</p>
+         </div>
+         <div class="kids">
+         <p class="add3">Kids</p>
+         </div>
+         <div class="home">
+         <p class="add4">Home & Living</p>
+         </div>
+         <div class="beauty">
+          <p class="add5">Beauty</p>
+          </div>
+          <div class="std">
+            <p class="add6">Studio</p>
+            </div>
+      </div>
+      <div class="nav-srch">
+        <div class="srch-icon">
+          <i class="fas fa-search"></i>
+        </div>
+        <input type="text" placeholder="Search for products,brands and more" class="srch2">    <!--try to make separate class for icons-->
+      </div>
+      <div class="cart1">
+        <div class="add-cart1">
+          <i class="far fa-user"></i>
+        </div>
+        <p class="cart1A">Profile</p>
+        </div>
+        <div class="cart2">
+          <div class="add-cart2">
+            <i class="far fa-heart"></i>
+          </div>
+          <p class="cart1B">Wishlist</p>
+          </div>
+          <div class="cart3">
+            <div class="add-cart3">
+              <i class="fas fa-shopping-bag"></i>
+            </div>
+            <p class="cart1C">Bag</p>
+            </div>
+    </div>
+  </header>
+  
+  
+  <div class="full">
+    <p class="fullp">HI USERNAME!</p>
+    <div class="all">
+     <div class="crnt_badge">
+      <div class="badgeshow"></div>
+     </div>
+
+     <div class="badge">
+        <div class="badge1" data-popup="popup-1" onclick="showPopup(event)" ></div>
+        <div class="popup-div1" id="popup-1" hidden>Welcome to Myntra Fashion DNA!</div>
+        <div class="badge2" data-popup="popup-2" onclick="showPopup(event)"></div>
+        <div class="popup-div2" id="popup-2" hidden>Unlock to Show Your Style Mastery!</div>  
+        <div class="badge3" data-popup="popup-3" onclick="showPopup(event)"></div>
+        <div class="popup-div3" id="popup-3" hidden>Fashion Enthusiast achieved,Trend Setter awaits!</div>
+        <div class="badge4"></div>
+        <div class="badge5"></div>
+     </div>
+     
+     <div class="radio">
+        <i class="far fa-dot-circle" style="color: rgb(13, 133, 13);"></i>
+        <p style="color: rgb(13, 133, 13);"><b>..........</b></p>
+        <i class="far fa-dot-circle" style="color: rgb(61, 60, 60);"></i>
+        <p style="color: rgb(61, 60, 60);"><b>..........</b></p>
+        <i class="far fa-dot-circle" style="color: rgb(61, 60, 60);"></i>
+        <p style="color: rgb(61, 60, 60);"><b>..........</b></p>
+        <i class="far fa-dot-circle" style="color: rgb(61, 60, 60);"></i>
+        <p style="color: rgb(61, 60, 60);"><b>..........</b></p>
+        <i class="far fa-dot-circle" style="color: rgb(61, 60, 60);"></i>
+     </div>
+
+     <div class="timeline">
+        <p class="line">Finish Your Chores,Earn Badges and More!</p>
+      <div class="line1">
+       <i class="fas fa-circle" style="color: green;"></i>
+       <p><b>Make a purchase of Rs.2000 or more</b></p>
+      </div>
+      <div class="line2">
+      <i class="far fa-circle" ></i>
+      <p><b>Share a review for your recent purchase</b></p>
+      </div>
+      <div class="line3">
+       <i class="far fa-circle"></i>
+       <p><b>Show some love to your favorite videos in the Myntra minis</b></p>
+      </div>
+     </div>
+
+     <div class="rewards">
+      <div class="reward1">
+       <p>Enjoy a whopping 20% discount on next two purchases!</p>
+      </div>
+      <div class="reward2">
+       <p>Free shipping awaits for your next purchase!</p>
+      </div>
+     </div>
+
+     <div class="flexing">
+      <div class="flex">
+        <p><b>Flex your Stuff with Style!</b></p>
+      </div>
+      <div class="share">
+        <button><b>Share</b></button>
+      </div>
+     </div>
+    </div>
+  </div>  
+    <script src="badge.js"></script>
+</body>
+</html>
