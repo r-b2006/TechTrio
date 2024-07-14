@@ -8,4 +8,8 @@ After giving Username(Let XYZ) and clicking on Continue , Achievement page appea
 
 ![This is achievement page](achieve.png)
 
+After clicking on Next in Achievement Page , you will see Badge Page(main page) which contains information about how to grab your nect badge and what rewards you get!
+
+![This is the Badge Page]()
+
 
