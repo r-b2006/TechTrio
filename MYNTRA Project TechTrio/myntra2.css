@@ -1,0 +1,364 @@
+* {
+    margin:0px;
+    font-family:Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;;
+    border:border-box;
+}
+
+.navbar {
+    height:80px;
+    background-color: #ffffff;
+    color:black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/*box1*/
+.nav-logo {
+    height:80px;
+    width:100px;
+    border: 2px solid transparent;
+}
+
+.logo {
+    background-image: url(https://aartisto.com/wp-content/uploads/2020/11/myntra-1200x900.png);
+    background-size:cover;
+    height:65px;
+    width:100%;
+}
+
+.nav-logo:hover {
+    cursor: pointer;
+ }
+ 
+/*box2*/
+.nav-add {
+    border: 0px solid transparent;
+    height:80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.men {
+    height:50px;
+}
+.add1 {
+    font-size:17px;
+    color: black;
+    font-weight: 700;
+    margin-top: 15px;
+
+}
+.men:hover {
+    border-bottom:4px solid rgb(207, 15, 47);
+    cursor: pointer;
+}
+
+.women {
+    height:50px;
+    margin-left:30px;
+}
+.add2 {
+    font-size:17px;
+    color: black;
+    font-weight: 700;
+    margin-top: 15px;
+
+}
+.women:hover {
+    border-bottom:4px solid rgb(207, 15, 47);
+    cursor: pointer;
+}
+
+.kids {
+    height:50px;
+    margin-left:30px;
+}
+.add3 {
+    font-size:17px;
+    color: black;
+    font-weight: 700;
+    margin-top: 15px;
+
+}
+.kids:hover {
+    border-bottom:4px solid rgb(207, 15, 47);
+    cursor: pointer;
+}
+
+.home {
+    height:50px;
+    margin-left:30px;
+}
+.add4 {
+    font-size:17px;
+    color: black;
+    font-weight: 700;
+    margin-top: 15px;
+}
+.home:hover {
+    border-bottom:4px solid rgb(207, 15, 47);
+    cursor: pointer;
+}
+
+.beauty {
+    height:50px;
+    margin-left:30px;
+}
+.add5 {
+    font-size:17px;
+    color: black;
+    font-weight: 700;
+    margin-top: 15px;
+}
+.beauty:hover {
+    border-bottom:4px solid rgb(207, 15, 47);
+    cursor: pointer;
+}
+
+.std {
+    height:50px;
+    margin-left:30px;
+}
+.add6 {
+    font-size:17px;
+    color:black;
+    font-weight: 700;
+    margin-top: 15px;
+}
+.std:hover {
+    border-bottom:4px solid rgb(207, 15, 47);
+    cursor: pointer;
+}
+
+/*box3*/
+.nav-srch {
+    display: flex;
+    justify-content: space-evenly;
+    background-color:#e6dfdf;
+    width:360px;
+    height:40px;
+    border-radius: 5px;
+    margin-left: 160px;
+}
+
+/* .nav-srch:hover {
+  border:4px solid rgb(207, 15, 47);
+}*/
+
+.srch2{
+    width: 100%;    /*sara khali area covered by search bar*/
+    font-size:0.85rem;
+    border:none;
+    background-color: #e6dfdf;
+}
+
+.srch-icon {
+    width:40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:lightgray;
+    font-size:1rem;
+    background-color: #e6dfdf; /*......*/
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border:none;
+}
+
+.cart1 {
+    height:55px;
+    border: 2px solid transparent;
+    margin-left: 15px;
+ }
+
+ .cart1:hover {
+    border-bottom:4px solid rgb(207, 15, 47);
+    cursor: pointer;
+ }
+
+ .add-cart1 {
+    font-size:0.85rem;
+    text-align: center;
+    height: 20px;
+    margin-top: 14px;
+    color:black;
+}
+
+ .cart1A {
+ font-size:0.75rem;
+ height: 20px;
+ color: black;
+ font-weight: 600;
+ background-color: #ffffff;
+ margin-top:0px;
+ }
+
+
+ .cart2 {
+    height:55px;
+    border: 2px solid transparent;
+ }
+
+ .cart2:hover {
+    cursor: pointer;
+ }
+
+ .add-cart2 {
+    font-size:0.85rem;
+    text-align: center;
+    height: 20px;
+    margin-top: 14px;
+    color:black;
+}
+
+ .cart1B {
+ font-size:0.75rem;
+ height: 20px;
+ color: black;
+ font-weight: 600;
+ background-color: #ffffff;
+ margin-top:0px;
+ }
+
+ .cart3 {
+    height:55px;
+    border: 2px solid transparent;
+ }
+
+ .cart3:hover {
+    cursor: pointer;
+ }
+
+ .add-cart3 {
+    font-size:0.85rem;
+    text-align: center;
+    margin-top: 14px;
+    height: 20px;
+    color:black;
+}
+
+ .cart1C {
+ font-size:0.75rem;
+ height: 20px;
+ color: black;
+ font-weight: 600;
+ background-color: #ffffff;
+ margin-top:0px;
+ }
+ body {
+    background-color: #fdefeb; /* Set background color for the entire page */
+    margin: 0;
+    padding: 0;
+   }
+  
+   .container {
+    height: 590px;
+    width: 30vw;
+    margin-top: 30px;
+    margin-left: 500px;
+    border: 2px solid #000; /* Ensure this line is correct */
+}
+
+        .head{
+            background-color:#fff4f8 ;
+            display:flex;
+        }
+        .bottom{
+            background-color: white;
+            height:330px;
+        }
+        .box1{
+            height:130px;
+           /* border: 1px solid #c52727;*/
+           font-family: Assistant, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            font-size: 25px;
+            width:200px;
+            padding:20px;
+        }
+        .icon{
+            height:230px;
+            width:230px;
+            margin-right: 10px;
+            margin-top: 0;
+        }
+        
+        .line1{
+            font-size:18px;
+            color:rgb(73, 75, 74);
+            padding-left: 20px;
+            padding-bottom: 2px;
+        }
+        .username{
+            font-size:20px;
+            margin:25px;
+            padding:15px;
+            margin-bottom: 10px;
+            font-family: Assistant, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+        
+    .usernamebox {
+        margin-left: 35px;
+        margin-top: 5px;
+        position: relative; /* Ensure relative positioning for absolute positioning of label */
+        width: 400px; /* Adjust width as needed */
+    }
+    .usernamebox input {
+        height: 40px; /* Adjust input height as needed */
+        width: 100%; /* Take full width of .usernamebox */
+        font-size: 16px; /* Adjust font size as needed */
+        box-sizing: border-box; /* Include padding and border in total width */
+    }
+    .usernamebox input::placeholder {
+        color:#555; /* Adjust placeholder color as needed */
+    }
+    .required {
+            color: red;
+            font-size: 20px; /* Adjust the size if needed */
+            margin-left: 2px; /* Adjust the space between the label and the asterisk if needed */
+        }
+    .line2{
+        font-size :15px;
+        color:rgba(40, 44, 63, .8);
+        margin-left: 40px;
+        margin-top:25px;
+    }
+    .highlight{
+        cursor: pointer;
+       color: #ff3c6f;
+        font-weight: 700;
+    }
+    .continue{
+        cursor: pointer;
+    background-color: #ff3f6c;
+    text-align: center;
+    padding: 12px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 16px;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    margin-top: 22px;
+    margin-left: 35px;
+    margin-right: 20px;
+    }
+
+.continue button {
+    background-color: #ff3f6c;
+    color: #fff;
+    border: none;
+    font-weight: 700;
+    font-size: 17px;
+    width:200px
+}
+
+    .l3{
+        margin-left:35px ;
+        color:rgba(40, 44, 63, .8);
+        margin-top: 25px;
+    }
+    
+
+
+
+
