@@ -16,8 +16,8 @@ After clicking on Next in Achievement Page , you will see Badge Page(main page) 
 By running npm start command in command prompt(Windows) behind simultaneously.
 Now after clicking Share button on badge page, a Lens Page will appear:
 
+![This is the Lens Page](camera.png)
 
-
-Now by clicking on Use Camera , we can click our pic
+Now by clicking on Use Camera , we can click our pic:
 
 
