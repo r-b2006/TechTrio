@@ -8,11 +8,11 @@ After giving Username(Let XYZ) and clicking on Continue , Achievement page appea
 
 ![This is achievement page](achieve.png)
 
-After clicking on Next in Achievement Page , you will see Badge Page(main page) which contains information about how to grab your nect badge and what rewards you get!
+After clicking on Next in Achievement Page , you will see Badge Page(main page) which contains information about how to grab your next badge and what rewards you get for that badge!
 
 ![This is the Badge Page](badgepage.png)
 
 
-Now after clicking on Share button on badge page, an AR Lens will pop up.
+Now after clicking on Share button on badge page, a Lens Page will appear.
 
 
