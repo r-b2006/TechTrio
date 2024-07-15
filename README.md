@@ -20,6 +20,10 @@ Then after clicking Share button on badge page, a Lens Page will appear:
 
 Now by clicking on Use Camera , we can click our pic:
 
-![This is the pic capture page](pic.png)
+![This is the pic Page](pic.png)
+
+After clicking on Take Photo we can click our pic and then we can share it on Whatsapp , Instagram and Snapchat :
+
+![This is the Share Page](share.png)
 
 
