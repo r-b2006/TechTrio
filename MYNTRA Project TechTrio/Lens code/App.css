@@ -1,0 +1,147 @@
+.App {
+  text-align: center;
+  background-color: #fdefe7;
+}
+.headline{
+  color: rgb(241,58, 255);
+  margin-left: 160px;;
+}
+.canvas-container {
+  position: relative;
+  display: inline-block;
+  
+  
+}
+
+canvas {
+  border: 5px solid #fdefe7;
+  border-radius: 25px;
+}
+
+.badge {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 200px;
+  height: 200px;
+}
+App input[type="file"] {
+  /* Styling for file input */
+  background-color: #fa5379;
+  color: white;
+  border-radius: 7px;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  
+}
+
+.App input[type="file"]:hover {
+  /* Hover effect for file input */
+  background-color:#ff3f6c;
+}
+.camera-button {
+  background-color: #fa5379; /* Green background for camera button */
+  color: white;
+  border-radius: 8px;
+  padding: 10px 20px;
+  margin-top: 10px;
+  margin-left: 5px ;
+  cursor: pointer;
+}
+
+.camera-button:hover {
+  background-color: #ff3f6c; /* Darker green on hover */
+}
+
+.take-photo-button {
+  background-color: #fa5379; /* Blue background for take photo button */
+  color: white;
+  border-radius: 8px;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.take-photo-button:hover {
+  background-color: #ff3f6c; /* Darker blue on hover */
+}
+
+.save-image-button {
+  background-color: #fa5379; /* Red background for save image button */
+  color: white;
+  border-radius: 8px;
+  padding: 10px 20px;
+  margin-top: 10px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.save-image-button:hover {
+  background-color: #ff3f6c; /* Darker red on hover */
+}
+
+.share-image-button {
+  background-color: #fa5379; /* Red background for share image button */
+  color: white;
+  border-radius: 8px;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.share-image-button:hover {
+  background-color: #ff3f6c; /* Darker red on hover */
+}
+
+.whatsapp-button img{
+  height:50px;
+  width:100px;
+}
+
+.whatsapp-button {
+  background-color:#fdefe7;
+  border:none;
+  display: flex;
+  justify-content: start;
+}
+
+.insta-button img{
+  height:50px;
+  width:60px;
+}
+
+.insta-button {
+  background-color:#fdefe7;
+  border:none;
+  display: flex;
+  justify-content: start;
+  margin-right:20px;
+}
+
+.snap-button img{
+  height:50px;
+  width:60px;
+}
+
+.snap-button {
+  background-color:#fdefe7;
+  border:none;
+  display: flex;
+  justify-content: start;
+}
+
+.share-options {
+  display: flex;
+  justify-content: center;
+  margin-left:200px;
+}
+
+.share-page h3 {
+  margin-top: 20px;
+  margin-left:200px;
+  color: #ff3f6c;
+  font-weight: 1000;
+}
+
